@@ -559,7 +559,70 @@ body.dark .logo img {
 }
 
 .skill-bubble img {
-    width: 50px; /* Largeur de l'icône */
-    height: 50px; /* Hauteur de l'icône */
+    width: 50px;
+    height: 50px;
+}
+
+/* Expériences */
+.experience-item {
+    position: relative;
+    padding: 20px 20px 20px 30px;
+    margin-bottom: 30px;
+    border-left: 3px solid #8167a9;
+    background: rgba(255,255,255,0.5);
+    border-radius: 0 8px 8px 0;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.experience-date {
+    font-weight: 600;
+    color: #8167a9 !important;
+    font-size: 0.95em;
+}
+
+.experience-type {
+    margin-bottom: 8px;
+}
+
+.experience-item ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.experience-item ul li {
+    margin-bottom: 4px;
+}
+
+/* Rapport placeholder */
+.rapport-placeholder {
+    background: #e9ecef;
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Dark mode pour expériences */
+body.dark .experience-item {
+    background: rgba(255,255,255,0.05);
+}
+
+/* About items */
+.about-item {
+    padding: 15px 15px 15px 25px;
+    margin-bottom: 20px;
+    border-left: 3px solid #8167a9;
+}
+
+.about-content h4,
+.about-content h6,
+.about-content p {
+    margin-bottom: 4px;
 }
 
